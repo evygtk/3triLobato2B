@@ -1,18 +1,18 @@
 
 
 .banner {
-    background: #000000; /* Cor de fundo do banner */
-    color: rgb(15, 100, 226); /* Cor do texto */
-    text-align: center; /* Centraliza o texto */
-    padding: 50px 20px; /* Espaçamento interno */
-    margin-bottom: 20px; /* Espaçamento abaixo do banner */
+    background: #000000; 
+    color: rgb(15, 100, 226); 
+    text-align: center; 
+    padding: 50px 20px; 
+    margin-bottom: 20px; 
 }
 
 .banner h1 {
-    font-size: 2.5em; /* Tamanho da fonte do título */
-    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    font-size: 2.5em; 
+    margin-bottom: 10px; 
 }
 
 .banner p {
-    font-size: 1.2em; /* Tamanho da fonte da mensagem */
+    font-size: 1.2em; 
 }
