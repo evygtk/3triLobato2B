@@ -6,10 +6,47 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #333;
     color: white;
     padding: 1rem;
     text-align: center;
+}
+
+.banner {
+    position: relative;
+    background-image: url('https://via.placeholder.com/1200x400'); /* Aqui você pode colocar a URL da imagem do seu banner */
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Efeito de brilho */
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skewX(-30deg);
+    animation: brilho 4s infinite;
+}
+
+@keyframes brilho {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 main {
