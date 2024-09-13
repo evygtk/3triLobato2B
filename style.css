@@ -1,10 +1,6 @@
 /* Cor de fundo da página */
 body {
     background-color: #f0f0f0; /* Cor de fundo da página */
-    color: #333; /* Cor do texto da página */
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove preenchimentos padrão */
 }
 
 /* Estilos do banner */
