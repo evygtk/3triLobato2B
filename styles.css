@@ -1,22 +1,35 @@
-/* Cor de fundo da página */
 body {
-    background-color: #f0f0f0; /* Cor de fundo da página */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-/* Estilos do banner */
-.banner {
-    background: #4CAF50; /* Cor de fundo do banner */
-    color: white; /* Cor do texto no banner */
-    text-align: center; /* Centraliza o texto no banner */
-    padding: 50px 20px; /* Espaçamento interno no banner */
-    margin-bottom: 20px; /* Espaçamento abaixo do banner */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
 
-.banner h1 {
-    font-size: 2.5em; /* Tamanho da fonte do título no banner */
-    margin-bottom: 10px; /* Espaçamento abaixo do título */
+main {
+    margin: 20px;
 }
 
-.banner p {
-    font-size: 1.2em; /* Tamanho da fonte da mensagem no banner */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
