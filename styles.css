@@ -11,7 +11,7 @@ body {
 }
 
 .banner {
-    background: linear-gradient(135deg, #00ccff, #007acc);
+    background: linear-gradient(135deg, #0b004b, #5100ff);
     padding: 50px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
