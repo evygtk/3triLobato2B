@@ -1,72 +1,55 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #ffa8d0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
+body {
+    background-color: #f0f0f0;
     text-align: center;
 }
 
 .banner {
-    position: relative;
-    background-image: url('https://via.placeholder.com/1200x400'); /* Aqui você pode colocar a URL da imagem do seu banner */
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(135deg, #00ccff, #007acc);
+    padding: 50px;
     color: white;
-    font-size: 2rem;
-    text-align: center;
-    overflow: hidden;
-    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    animation: glowing 1.5s infinite alternate;
 }
 
-/* Efeito de brilho */
-.banner::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.2);
-    transform: skewX(-30deg);
-    animation: brilho 4s infinite;
-}
-
-@keyframes brilho {
-    0% {
-        left: -100%;
+@keyframes glowing {
+    from {
+        box-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff, 0 0 30px #007acc;
     }
-    100% {
-        left: 100%;
+    to {
+        box-shadow: 0 0 20px #00ccff, 0 0 40px #00ccff, 0 0 60px #007acc;
     }
 }
 
-main {
-    margin: 20px;
+h1 {
+    font-size: 3em;
 }
 
-section {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+p {
+    margin-top: 10px;
+    font-size: 1.2em;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
 }
