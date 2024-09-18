@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #000000;
     text-align: center;
 }
 
 .banner {
-    background: linear-gradient(135deg, #001f3f, #004080); /* Azul escuro */
+    background: linear-gradient(135deg, #1500ff, #0d00ff); /* Azul escuro */
     padding: 50px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
