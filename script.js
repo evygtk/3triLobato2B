@@ -1,3 +1,3 @@
 window.onload = function() {
-    console.log("Bem-vindo ao meu site!");
+    console.log("Welcome to my portfolio site!");
 };
