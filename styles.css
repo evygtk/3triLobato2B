@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #000; /* Fundo preto */
+    background-color: #ffffff; /* Fundo preto */
     color: #fff;
 }
 
@@ -52,7 +52,7 @@ nav ul li a {
     width: 300px;
     height: 300px;
     border-radius: 50%; /* Foto redonda */
-    border: 6px solid #ff4500; /* Borda em laranja/vermelho */
+    border: 6px solid #3bb4f6; /* Borda em laranja/vermelho */
 }
 
 .intro-text {
@@ -66,7 +66,7 @@ nav ul li a {
 }
 
 .intro-text h2 span {
-    color: #ff4500; /* Cor laranja/vermelho */
+    color: #3bb4f6; /* Cor laranja/vermelho */
 }
 
 .intro-text h3 {
@@ -75,7 +75,7 @@ nav ul li a {
 }
 
 .intro-text h3 span {
-    color: #ff4500;
+    color: #3bb4f6;
 }
 
 .intro-text p {
