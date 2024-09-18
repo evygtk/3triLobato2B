@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #f0f0f0;
     text-align: center;
 }
 
 .banner {
-    background: linear-gradient(135deg, #000000, #2f00ff);
+    background: linear-gradient(135deg, #001f3f, #004080); /* Azul escuro */
     padding: 50px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
@@ -20,10 +20,10 @@ body {
 
 @keyframes glowing {
     from {
-        box-shadow: 0 0 10px #1900ff, 0 0 20px #001aff, 0 0 30px #001bcc;
+        box-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff, 0 0 30px #004080;
     }
     to {
-        box-shadow: 0 0 20px #3300ff, 0 0 40px #3700ff, 0 0 60px #2b00ff;
+        box-shadow: 0 0 20px #00ccff, 0 0 40px #00ccff, 0 0 60px #004080;
     }
 }
 
@@ -53,3 +53,4 @@ p {
 .social-icons img:hover {
     transform: scale(1.2);
 }
+
