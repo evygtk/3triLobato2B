@@ -20,10 +20,10 @@ body {
 
 @keyframes glowing {
     from {
-        box-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff, 0 0 30px #004080;
+        box-shadow: 0 0 10px #4400ff, 0 0 20px #2b00ff, 0 0 30px #004080;
     }
     to {
-        box-shadow: 0 0 20px #00ccff, 0 0 40px #00ccff, 0 0 60px #004080;
+        box-shadow: 0 0 20px #4000ff, 0 0 40px #2b00ff, 0 0 60px #004080;
     }
 }
 
