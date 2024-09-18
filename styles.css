@@ -55,23 +55,33 @@ p {
     transform: scale(1.2);
 }
 
+/* Seção de perfil */
+.profile-section {
+    margin: 50px 0;
+}
+
 /* Estilos para a foto de perfil redonda */
 .profile-pic {
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-pic img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%; /* Faz a imagem ficar redonda */
     border: 4px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Seção Sobre Mim */
 .about-me {
     margin-top: 50px;
     text-align: left;
     padding: 20px;
+    max-width: 800px;
+    margin: 50px auto; /* Centraliza a seção */
 }
 
 .about-me h2 {
@@ -81,15 +91,4 @@ p {
 }
 
 .about-me ul {
-    list-style: none;
-}
-
-.about-me ul li {
-    margin-bottom: 10px;
-    font-size: 1.2em;
-}
-
-.about-me ul li strong {
-    color: #007bff;
-}
-
+   
