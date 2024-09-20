@@ -48,8 +48,8 @@ nav ul li a {
 .profile-pic img {
     width: 300px;
     height: 300px;
-    border-radius: 50%; /* Foto redonda */
-    border: 6px solid #91bdff; /* Borda em laranja/vermelho */
+    border-radius: 50%; 
+    border: 2px solid #91bdff; 
 }
 
 .intro-text {
@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 .intro-text h2 span {
-    color: #3bb4f6; /* Cor laranja/vermelho */
+    color: #3bb4f6;
 }
 
 .intro-text h3 {
@@ -95,4 +95,4 @@ nav ul li a {
     height: 40px; 
 }
 @keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0); } } h1 { animation: bounce 3s infinite; }
-h1 { color: blue; transition: color 0.3s; } h1:hover { color: rgb(138, 208, 255); }
+h1 { color: rgb(0, 195, 255); transition: color 0.3s; } h1:hover { color: rgb(138, 208, 255); }
