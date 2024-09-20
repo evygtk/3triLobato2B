@@ -94,5 +94,5 @@ nav ul li a {
     width: 40px;
     height: 40px; 
 }
-@keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0); } } h1 { animation: bounce 2s infinite; }
-h1 { color: blue; transition: color 0.3s; } h1:hover { color: red; }
+@keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0); } } h1 { animation: bounce 3s infinite; }
+h1 { color: blue; transition: color 0.3s; } h1:hover { color: rgb(138, 208, 255); }
