@@ -46,8 +46,10 @@ nav ul li a {
 }
 
 .profile-pic img {
+    width: 300px;
+    height: 300px;
     border-radius: 50%; /* Foto redonda */
-    border: 6px solid #91bdff; 
+    border: 6px solid #91bdff; /* Borda em laranja/vermelho */
 }
 
 .intro-text {
