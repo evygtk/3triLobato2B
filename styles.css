@@ -1,4 +1,4 @@
-/* Reset de estilos e configurações básicas */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@
     color: #91bdff;
     }
     
-    /* Navbar */
+    
     .navbar {
     display: flex;
     justify-content: space-between;
@@ -40,14 +40,14 @@
     font-size: 1.2em;
     }
     
-    /* Menu de imagens */
+    
     .menu-list img {
-    width: 50px; /* Tamanho das imagens no menu */
+    width: 50px; 
     height: 50px;
     margin: 5px;
     }
     
-    /* Introdução */
+    
     .intro {
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@
     }
     
     .profile-pic img {
-    width: 200px; /* Ajuste do tamanho da foto de perfil */
+    width: 200px; 
     height: 200px;
     border-radius: 50%;
     border: 2px solid #d7e7ff;
@@ -65,7 +65,7 @@
     .intro-text {
     max-width: 600px;
     text-align: left;
-    margin-left: 30px; /* Adiciona espaço entre a foto e o texto */
+    margin-left: 30px; 
     }
     
     .intro-text h2 {
@@ -92,7 +92,7 @@
     line-height: 1.6;
     }
     
-    /* Ícones de redes sociais */
+    
     .social-icons {
     margin-top: 20px;
     }
@@ -103,11 +103,11 @@
     }
     
     .social-icons img {
-    width: 30px; /* Tamanho menor para ícones de redes sociais */
+    width: 30px; 
     height: 30px;
     }
     
-    /* Animação e transições no título */
+    
     @keyframes bounce {
     0% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
