@@ -1,98 +1,127 @@
+/* Reset de estilos e configurações básicas */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
-}
-
-body {
-        font-family: 'Indie Flower', cursive;
-    background-color: #ffffff; /* Fundo preto */
+    }
+    
+    body {
+    font-family: 'Indie Flower', cursive;
+    background-color: #ffffff;
     color: #91bdff;
-}
-
-.navbar {
+    }
+    
+    /* Navbar */
+    .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-}
-
-.logo {
+    }
+    
+    .logo {
     font-size: 1.5em;
     color: #fff;
-}
-
-nav ul {
+    }
+    
+    nav ul {
     list-style: none;
     display: flex;
-}
-
-nav ul li {
+    }
+    
+    nav ul li {
     margin: 0 15px;
-}
-
-nav ul li a {
+    }
+    
+    nav ul li a {
     text-decoration: none;
     color: #0099ff;
     font-size: 1.2em;
-}
-
-.intro {
+    }
+    
+    /* Menu de imagens */
+    .menu-list img {
+    width: 50px; /* Tamanho das imagens no menu */
+    height: 50px;
+    margin: 5px;
+    }
+    
+    /* Introdução */
+    .intro {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 100px 20px;
-}
-
-.profile-pic img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%; 
-    border: 1px solid #d7e7ff; 
-}
-
-.intro-text {
+    }
+    
+    .profile-pic img {
+    width: 200px; /* Ajuste do tamanho da foto de perfil */
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #d7e7ff;
+    }
+    
+    .intro-text {
     max-width: 600px;
     text-align: left;
-}
-
-.intro-text h2 {
+    margin-left: 30px; /* Adiciona espaço entre a foto e o texto */
+    }
+    
+    .intro-text h2 {
     font-size: 2.5em;
     color: #91bdff;
-}
-
-.intro-text h2 span {
+    }
+    
+    .intro-text h2 span {
     color: #3bb4f6;
-}
-
-.intro-text h3 {
+    }
+    
+    .intro-text h3 {
     font-size: 2em;
     margin-top: 10px;
-}
-
-.intro-text h3 span {
+    }
+    
+    .intro-text h3 span {
     color: #3bb4f6;
-}
-
-.intro-text p {
+    }
+    
+    .intro-text p {
     margin-top: 20px;
     font-size: 1.2em;
     line-height: 1.6;
-}
-
-.social-icons {
+    }
+    
+    /* Ícones de redes sociais */
+    .social-icons {
     margin-top: 20px;
-}
-
-.social-icons a {
+    }
+    
+    .social-icons a {
     margin-right: 15px;
     display: inline-block;
-}
-
-.social-icons img {
-    width: 40px;
-    height: 40px; 
-}
-@keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0); } } h1 { animation: bounce 3s infinite; }
-h1 { color: rgb(0, 195, 255); transition: color 0.3s; } h1:hover { color: rgb(138, 208, 255); }
+    }
+    
+    .social-icons img {
+    width: 30px; /* Tamanho menor para ícones de redes sociais */
+    height: 30px;
+    }
+    
+    /* Animação e transições no título */
+    @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+    }
+    
+    h1 {
+    animation: bounce 3s infinite;
+    color: rgb(0, 195, 255);
+    transition: color 0.3s;
+    }
+    
+    h1:hover {
+    color: rgb(138, 208, 255);
+    }
+    
+    
